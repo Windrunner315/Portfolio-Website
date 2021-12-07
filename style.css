@@ -4,4 +4,9 @@ body {
 .navli {
     list-style-type:none;
   }
-  
+#discordli {
+    list-style-image:url(images/Discord-Logo-Black.png);
+}
+#lichessli {
+    list-style-image:url(images/lichess.png);
+}
