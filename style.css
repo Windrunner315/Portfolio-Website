@@ -10,3 +10,20 @@ body {
 #lichessli {
     list-style-image:url(images/lichess.png);
 }
+header {
+    background-color:slategrey;
+}
+header nav ul li a {
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    color:white;
+}
+header nav ul li a:hover {
+    background-color: darkblue;
+    color:white;
+}
+h2 {
+    text-align: center;
+    color:white;
+}
