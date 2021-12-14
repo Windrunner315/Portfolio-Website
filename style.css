@@ -1,29 +1,54 @@
 body {
     font-family:raleway;
+    background-color: #171424;
+    color:#c9c9c9;
+}
+h2 {
+    color: white;
 }
 .navli {
     list-style-type:none;
-  }
-#discordli {
-    list-style-image:url(images/Discord-Logo-Black.png);
 }
-#lichessli {
-    list-style-image:url(images/lichess.png);
+figcaption {
+    font-size: 8pt;
 }
+/* Header */
 header {
-    background-color:slategrey;
+    background-color: #0f043b;
+}
+header nav ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: left;
+}
+header nav ul li {
+    display:block;
 }
 header nav ul li a {
+    display:block;
+    padding: 20px 28px;
     text-decoration: none;
-    text-align: center;
-    vertical-align: middle;
+    text-align: left;
     color:white;
 }
 header nav ul li a:hover {
     background-color: darkblue;
     color:white;
 }
-h2 {
-    text-align: center;
+/* -- Footer -- */
+footer {
     color:white;
+    text-align:center;
+}
+footer a {
+    text-decoration: none;
+    color:blue;
+}
+#footer {
+    background-color: #1e1b29;
+    padding: 24px;
+    display: inline-block;
+    width:98%;
 }
