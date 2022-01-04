@@ -50,10 +50,5 @@ footer a {
     background-color: #1e1b29;
     padding: 24px;
     display: inline-block;
-    width:95%;
-}
-/* -- Gaming -- */
-.gaming {
-    float: right;
-    padding-right: 500px;
+    width:90%;
 }
