@@ -52,3 +52,8 @@ footer a {
     display: inline-block;
     width:98%;
 }
+/* -- Gaming -- */
+.gaming {
+    float: right;
+    padding-right: 50px;
+}
