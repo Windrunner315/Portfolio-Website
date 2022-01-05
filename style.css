@@ -4,6 +4,7 @@ body {
     color:#c9c9c9;
 }
 h2 {
+    font-family:'Courier New', Courier, monospace;
     color: white;
 }
 .navli {
@@ -50,5 +51,17 @@ footer a {
     background-color: #1e1b29;
     padding: 24px;
     display: inline-block;
-    width:80%;
+    width:95%;
+}
+/* -- Contact List -- */
+.discordli {
+    list-style-type: none;
+    list-style-image:url(images/Discord-Logo-Black.png);
+}
+.lichessli {
+    list-style-type: none;
+    list-style-image:url(images/lichess.png);
+}
+.emaili {
+    list-style-type: none;
 }
