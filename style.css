@@ -53,7 +53,37 @@ footer a {
     display: inline-block;
     width:95%;
 }
+/* -- Form -- */
+.form {
+    display:grid;
+    justify-items:center;
+    justify-content:left;
+    grid-template-areas:
+    'fullname email'
+    'phone subject'
+    'message message'
+    'button button';
+}
+.form .fullname {
+    grid-area:fullname;
+}
+.form .email {
+    grid-area:email;
+}
+.form .phone {
+    grid-area:phone;
+}
+.form .subject {
+    grid-area:subject;
+}
+.form .message {
+    grid-area:message;
+}
+.form .button {
+    grid-area:button;
+}
 /* -- Contact List -- */
+/*
 .discordli {
     list-style-type: none;
     list-style-image:url(images/Discord-Logo-Black.png);
@@ -61,7 +91,9 @@ footer a {
 .lichessli {
     list-style-type: none;
     list-style-image:url(images/lichess.png);
+
 }
 .emaili {
     list-style-type: none;
 }
+/*
