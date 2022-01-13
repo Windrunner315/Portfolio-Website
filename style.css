@@ -82,6 +82,14 @@ footer a {
 .form .button {
     grid-area:button;
 }
+.form input {
+    background:transparent;
+    color:white;
+    border:none;
+    border-bottom: 2px solid #fff;
+    min-width:250px;
+    height:10px;
+}
 /* -- Contact List -- */
 /*
 .discordli {
