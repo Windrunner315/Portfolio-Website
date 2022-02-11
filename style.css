@@ -66,89 +66,107 @@ footer a {
     width: 95%;
 }
 
-/* -- Form -- */
-.form {
-    display: grid;
-    justify-items: center;
-    justify-content: left;
-    grid-template-areas:
-        'fullname email'
-        'phone subject'
-        'message message'
-        'button button';
+/*==========Contact Page==========*/ 
+.container-contact-outer {
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    padding: 30px 0 0 0;
 }
 
-.form .fullname {
-    grid-area: fullname;
+.container-contact {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 5% 0;
+    color: white;
 }
 
-.form .email {
+.vertical-hr hr {
+    border: none;
+    border-left: 1px solid hsla(200, 10%, 50%, 100);
+    height: 40vh;
+    width: 1px;
+}
+
+.vertical-hr {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-form .name-first {
+    grid-area: fname;
+}
+
+.contact-form .name-last {
+    grid-area: lname;
+}
+
+.contact-form .email {
     grid-area: email;
 }
 
-.form .phone {
+.contact-form .phone {
     grid-area: phone;
 }
 
-.form .subject {
-    grid-area: subject;
-}
-
-.form .message {
+.contact-form .message {
     grid-area: message;
 }
 
-.form .button {
-    height: 30px;
-    width: 200px;
-    background: transparent;
-    color: #ffffff;
-    border: 2px solid #ffffff;
-    border-radius: 2px;
+.contact-form .button {
+    grid-area: button;
 }
 
-.form input {
+.contact-form {
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    grid-template-areas:
+        'fname lname'
+        'email phone'
+        'message message'
+        'button button';
+    grid-gap: 30px;
+}
+
+.contact-form input {
     background: transparent;
     color: white;
     border: none;
-    border-bottom: 2px solid #ffffff;
-    min-width: 250px;
+    border-bottom: 2px solid #fff;
+    min-width: 375px;
     height: 50px;
 }
 
-.form textarea {
+.contact-form textarea {
     background: transparent;
     color: white;
     border: none;
-    border-bottom: 2px solid #ffffff;
-    min-width: 550px;
+    border-bottom: 2px solid #fff;
+    min-width: 825px;
     height: 150px;
 }
 
-.form ::placeholder {
+.contact-form ::placeholder {
     color: white;
     padding-bottom: 10px;
 }
 
-.form button:hover {
+.contact-form button {
+    height: 30px;
+    width: 300px;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 2px;
+}
+
+.contact-form button:hover {
     background: rgba(255, 255, 255, 0.5);
     color: black;
     -webkit-transition: 0.4s;
     transition: 0.4s;
 }
-
-/* -- Contact List -- */
-/*
-.discordli {
-    list-style-type: none;
-    list-style-image:url(images/Discord-Logo-Black.png);
-}
-.lichessli {
-    list-style-type: none;
-    list-style-image:url(images/lichess.png);
-
-}
-.emaili {
-    list-style-type: none;
-}
-*/
